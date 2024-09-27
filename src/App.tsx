@@ -10,6 +10,7 @@ import Guestbook from '@/layout/Guestbook/Guestbook.tsx';
 import Invitation from '@/layout/Invitation/Invitation.tsx';
 import Location from '@/layout/Location/Location.tsx';
 import Main from '@/layout/Main/Main.tsx';
+import Account from './layout/Account/Account';
 
 function App() {
   const ncpClientId = import.meta.env.VITE_APP_NAVERMAPS_CLIENT_ID;
@@ -57,6 +58,7 @@ function App() {
         </Wrapper>
         <Wrapper>
           <Heading1>마음 전하실 곳</Heading1>
+          <Account />
           <div>국민은행 944502-00 047743 정해원</div>
         </Wrapper>
         <Wrapper>

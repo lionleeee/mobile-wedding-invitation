@@ -1,11 +1,12 @@
-import styled from '@emotion/styled';
-import data from 'data.json';
-import AccountWrap from './AccountWrap.tsx';
-import Accordion from '@/components/Accordion.tsx';
+//import styled from '@emotion/styled';
+//import data from 'data.json';
+//import AccountWrap from './AccountWrap.tsx';
+//import Accordion from '@/components/Accordion.tsx';
 
 const Account = () => {
-  const { hostInfo } = data;
+  //const { hostInfo } = data;
   return (
+    /*
     <HostInfoWrapper>
       {hostInfo.map((host) => {
         return (
@@ -27,14 +28,16 @@ const Account = () => {
         );
       })}
     </HostInfoWrapper>
+  */
+    <></>
   );
 };
 
 export default Account;
 
-const HostInfoWrapper = styled.div`
-  display: flex;
-  width: 90%;
-  flex-direction: column;
-  padding: 20px;
-`;
+//const HostInfoWrapper = styled.div`
+//  display: flex;
+//  width: 90%;
+//  flex-direction: column;
+//  padding: 20px;
+//`;
