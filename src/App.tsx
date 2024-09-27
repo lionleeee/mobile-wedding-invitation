@@ -13,7 +13,7 @@ import Main from '@/layout/Main/Main.tsx';
 
 function App() {
   const ncpClientId = import.meta.env.VITE_APP_NAVERMAPS_CLIENT_ID;
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
   const galleryRef = useRef(null);
 
   useEffect(() => {
@@ -31,7 +31,7 @@ function App() {
       if (scrollPosition >= offsetTop) {
         setIsVisible(true);
       } else {
-        setIsVisible(false);
+        setIsVisible(true);
       }
     }
   };
