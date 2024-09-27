@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from '@emotion/styled';
+//import React from 'react';
+//import styled from '@emotion/styled';
 //import data from 'data.json';
-import { BrideAndGroom } from '@/types/data.ts';
+//import { BrideAndGroom } from '@/types/data.ts';
 
 const Host = () => {
   //const { groom, bride } = data.greeting.host;
@@ -21,6 +21,7 @@ const Host = () => {
 
 export default Host;
 
+/*
 const HostInfo = ({ person }: { person: BrideAndGroom }) => {
   return (
     <HostDetails>
@@ -42,30 +43,32 @@ const HostInfo = ({ person }: { person: BrideAndGroom }) => {
     </HostDetails>
   );
 };
+*/
 
-const HighlightedName = styled.span`
-  font-weight: 600;
-  font-size: 1.1rem;
-  color: #4f4f4f;
-  margin-right: 5px;
-`;
+//const HighlightedName = styled.span`
+//  font-weight: 600;
+//  font-size: 1.1rem;
+//  color: #4f4f4f;
+//  margin-right: 5px;
+//`;
 
 //const HostContainer = styled.div`
 //  gap: 8px;
 //  font-family: HSSanTokki20-Regular, serif;
 //`;
 
-const HostDetails = styled.div`
-  padding: 0 55px;
-  justify-content: center;
-  white-space: nowrap;
-  display: flex;
-  gap: 6px;
-  text-align: center;
-  align-items: center;
-  font-weight: 700;
-`;
+//const HostDetails = styled.div`
+//  padding: 0 55px;
+//  justify-content: center;
+//  white-space: nowrap;
+//  display: flex;
+//  gap: 6px;
+//  text-align: center;
+//  align-items: center;
+//  font-weight: 700;
+//`;
 
+/*
 const RelationText = styled.div`
   font-style: normal;
   line-height: 26px;
@@ -77,3 +80,5 @@ const RelationText = styled.div`
 const Relation = styled.div`
   width: inherit;
 `;
+
+*/
