@@ -6,7 +6,6 @@ import Accordion from '@/components/Accordion.tsx';
 const Account = () => {
   const { hostInfo } = data;
   return (
-    /*
     <HostInfoWrapper>
       {hostInfo.map((host) => {
         return (
@@ -28,8 +27,6 @@ const Account = () => {
         );
       })}
     </HostInfoWrapper>
-    */
-    <div>국민은행 944502-00 047743 정해원</div>
   );
 };
 

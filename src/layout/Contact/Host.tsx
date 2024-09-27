@@ -1,17 +1,21 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import data from 'data.json';
+//import data from 'data.json';
 import { BrideAndGroom } from '@/types/data.ts';
 
 const Host = () => {
-  const { groom, bride } = data.greeting.host;
+  //const { groom, bride } = data.greeting.host;
   return (
+    <></>
+    /*
     <>
+    
       <HostContainer>
         <HostInfo person={groom} />
         <HostInfo person={bride} />
       </HostContainer>
     </>
+    */
   );
 };
 
@@ -19,7 +23,6 @@ export default Host;
 
 const HostInfo = ({ person }: { person: BrideAndGroom }) => {
   return (
-    /*<
     <HostDetails>
       {person.parents && (
         <>
@@ -37,8 +40,6 @@ const HostInfo = ({ person }: { person: BrideAndGroom }) => {
       </RelationText>
       <HighlightedName>{person.name}</HighlightedName>
     </HostDetails>
-    */
-    <div></div>
   );
 };
 
@@ -49,10 +50,10 @@ const HighlightedName = styled.span`
   margin-right: 5px;
 `;
 
-const HostContainer = styled.div`
-  gap: 8px;
-  font-family: HSSanTokki20-Regular, serif;
-`;
+//const HostContainer = styled.div`
+//  gap: 8px;
+//  font-family: HSSanTokki20-Regular, serif;
+//`;
 
 const HostDetails = styled.div`
   padding: 0 55px;

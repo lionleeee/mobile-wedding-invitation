@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { NavermapsProvider } from 'react-naver-maps';
 import { Heading1 } from '@/components/Text.tsx';
 import Wrapper from '@/components/Wrapper.tsx';
-import Account from '@/layout/Account/Account.tsx';
+
 import Container from '@/layout/Container.tsx';
 import FloatingBar from '@/layout/FloatingBar/FloatingBar.tsx';
 import GalleryWrap from '@/layout/Gallery/GalleryWrap.tsx';
@@ -57,7 +57,7 @@ function App() {
         </Wrapper>
         <Wrapper>
           <Heading1>마음 전하실 곳</Heading1>
-          <Account />
+          <div>국민은행 944502-00 047743 정해원</div>
         </Wrapper>
         <Wrapper>
           <Heading1>이현이에게</Heading1>
