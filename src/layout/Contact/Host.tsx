@@ -19,6 +19,7 @@ export default Host;
 
 const HostInfo = ({ person }: { person: BrideAndGroom }) => {
   return (
+    /*<
     <HostDetails>
       {person.parents && (
         <>
@@ -36,6 +37,8 @@ const HostInfo = ({ person }: { person: BrideAndGroom }) => {
       </RelationText>
       <HighlightedName>{person.name}</HighlightedName>
     </HostDetails>
+    */
+    <div></div>
   );
 };
 

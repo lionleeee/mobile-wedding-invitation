@@ -50,16 +50,17 @@ function App() {
           <Heading1>Gallery</Heading1>
           <GalleryWrap />
         </Wrapper>
-        <Wrapper>
-          <Heading1>마음 전하실 곳</Heading1>
-          <Account />
-        </Wrapper>
+
         <Wrapper>
           <Heading1>오시는 길</Heading1>
           <Location />
         </Wrapper>
         <Wrapper>
-          <Heading1>신랑 신부에게</Heading1>
+          <Heading1>마음 전하실 곳</Heading1>
+          <Account />
+        </Wrapper>
+        <Wrapper>
+          <Heading1>이현이에게</Heading1>
           <Guestbook />
         </Wrapper>
         <FloatingBar isVisible={isVisible} />
